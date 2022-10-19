@@ -1,4 +1,4 @@
-	*{
+*{
 	box-sizing: border-box;
 	font-family: sans-serif;
     margin:0;
@@ -9,7 +9,7 @@ body{
     
     margin:0;
 	padding:0;
-	background-color: white;
+	background-color: #bcb4ac;
 	margin-bottom: 5%;
 	min-height: 400px;
     
@@ -33,7 +33,7 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	border-bottom: solid 2px lightgrey;
+	border-bottom: solid 2px lightgray;
     background-color:  #033d68;
     
 }
@@ -252,7 +252,7 @@ footer {
 		box-sizing: border-box;
 		margin:0 auto;
 		font-family: sans-serif;
-		background-color: lightgrey;
+		background-color: #9c9fa4;
 		width: 100%;
         
 		
@@ -307,10 +307,3 @@ footer {
         
         
       }
-
-
-
-	  
-
-	
-	
