@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation & Creation</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <img class = "logo" height = "150" src = "https://res.cloudinary.com/derrickstahlman/image/upload/v1666186471/dr_strod_ywvvyv.png"  alt = "logo">
+
+        <nav> 
+            <ul class = "nav-link">
+                <li> <a href = "#">Home</a></li>
+                <li> <a href = "#4">Contact</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <main class = "content">
+        <section class = "all">
+
+            <div class = "one">
+                <h2>About  Dr Stoddard</h2>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Malesuada fames ac turpis egestas sed tempus. Orci porta non pulvinar neque laoreet.>Hello World Feugiat nisl pretium fusce id velit ut tortor pretium viverra. Dui ut ornare lectus sit amet est. Est lorem ipsum dolor sit amet consectetur. Nibh tellus molestie nunc non blandit massa enim nec. Ut consequat semper viverra nam libero justo laoreet sit. At auctor urna nunc id cursus metus aliquam. Rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt. Libero volutpat sed cras ornare arcu dui. Tristique nulla aliquet enim tortor at auctor urna nunc. In dictum non consectetur a erat nam at. Nisl nisi scelerisque eu ultrices. Consectetur adipiscing elit pellentesque habitant.</p> 
+                <br>
+
+            </div>
+
+            <div class = "two">
+                <h2>About the Practice</h2>
+
+                
+                <p>Ullamcorper a lacus vestibulum sed arcu. Ac feugiat sed lectus vestibulum mattis ullamcorper. Ultrices neque ornare aenean euismod elementum nisi quis. Mattis pellentesque id nibh tortor id aliquet. Pharetra diam sit amet nisl suscipit adipiscing bibendum. Amet risus nullam eget felis eget nunc lobortis. Integer vitae justo eget magna fermentum. Nunc lobortis mattis aliquam faucibus purus. Consequat interdum varius sit amet mattis vulputate enim nulla aliquet. Ullamcorper malesuada proin libero nunc consequat interdum varius. Lacinia at quis risus sed vulputate odio ut enim. Purus non enim praesent elementum facilisis leo vel. At quis risus sed vulputate odio. Mauris augue neque gravida in fermentum et sollicitudin ac.</p>
+                
+                <br>
+            </div>
+
+            <div class = "three">
+
+                <h2>Your Visit</h2>
+
+                <p>Id leo in vitae turpis massa. Nulla aliquet porttitor lacus luctus accumsan tortor. Lorem donec massa sapien faucibus et. Aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. Egestas maecenas pharetra convallis posuere morbi leo urna. Nisl pretium fusce id velit. Morbi tristique senectus et netus et malesuada fames. Quam nulla porttitor massa id. Et malesuada fames ac turpis egestas maecenas. Nunc pulvinar sapien et ligula ullamcorper malesuada proin libero nunc. Sit amet nisl suscipit adipiscing bibendum. Odio ut enim blandit volutpat. Eu mi bibendum neque egestas congue quisque egestas diam in. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus et. Gravida rutrum quisque non tellus. Dui ut ornare lectus sit amet est. Feugiat pretium nibh ipsum consequat nisl vel pretium lectus quam.</p>
+
+            </div>
+
+
+            
+
+        </section>
+
+
+        <section class = "rightside">
+
+            <form class = "form" onsubmit = "return false"> <!-- set onsubmit to return false to prevent page reload on button click-->
+                <h1 id = "title">Make an Appointment</h1>
+                 
+                <label for="first-name">First name: </label><input type="text" name="name" id="first-name" /> <br />
+                <label for="parent-name">Last Name: </label><input type="text" name="last-name" id="last-name" /> <br />
+                <label for="todays-date">Date of Birth: </label><input type="date" name="date" id="todays-day" /><br />
+                <label for="phone">Enter your phone number:</label>
+
+<input type="tel" id="phone" name="phone"
+pattern="[0-1]{1}[0-9]{3}[0-9]{3}[0-9]{4}"
+required>
+
+<small>Format: 11234567890</small>
+<br/>
+                <label for="email">Email: </label><input type="email" name="email" id="email" /> <br />
+
+                <div class = "date">
+
+                <label for="todays-date">Desired appointment date </label><input type="date" name="date" id="todays-day" /><br />
+
+                </div>
+
+                <label for="appt">Desired appointment time</label>
+
+                <input type="time" id="appt" name="appt"
+                    min="09:00" max="18:00" required>
+                    <br/>
+                    
+
+                <small>Office hours are 9am to 6pm</small> 
+                <br/>
+                <br/>
+          
+                <section id = "permission"><p> Do we have your permission to keep this form on file?</p>
+                <label for="permission">yes</label><input type="checkbox" name="group2" id="gp2-2" value=2  checked/>
+                
+              <label for="permission2">no</label><input type="checkbox" name="group2" id="gp2-3" value=3 />
+                </section>
+                <br/>
+          
+                
+
+                <br />
+                
+                <textarea name="msg" id="msg">Additional Information you would like to provide.
+
+                </textarea>
+                <br/>
+                
+          
+                <button id = "submitForm">Click to Submit</button>
+          
+
+                
+                
+              </form>
+
+
+        <div class = "show">
+            <h2>
+                Thank you for making a appointment with us. We will be in touch to confirm the appointment with you.
+            </h2>
+
+        </div>
+             
+
+
+
+
+              
+            
+            
+             
+        </section>
+        
+
+
+    </main>
+
+    <footer> 
+        <div class="phone"> 
+            Phone: (704) 648-5746
+            </div>
+            <div class="address">
+            Address: 205 Red Oak ct,  Gastonia NC, 28052
+            </div>
+        <large class = "copyright">&copy; Copyright 2018, Derrick Stahlman</large> 
+
+    </footer>
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

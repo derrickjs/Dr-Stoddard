@@ -1,0 +1,312 @@
+*{
+	box-sizing: border-box;
+	font-family: sans-serif;
+    margin:0;
+    padding:0
+}
+
+body{
+    
+    margin:0;
+	padding:0;
+	background-color: white;
+	margin-bottom: 5%;
+	min-height: 400px;
+
+
+}
+
+/* header section starts */
+li, a , button {
+	font-family: sans-serif;
+	font-weight: 500;
+	font-size: 1.3rem;
+	color: lightslategray;
+	text-decoration: none;
+	list-style-type: none;
+	
+
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: solid 2px lightgrey;
+}
+
+.logo{
+	cursor: pointer;
+	
+	
+}
+
+
+.nav-link{
+	list-style: none;
+	
+}
+
+.nav-link li {
+	display: inline-block;
+	margin: 1em;
+}
+
+.nav-link li a {
+	transition: all 0.8s ease 0s;
+	padding: 1em;
+    
+}
+
+.nav-link li a:hover {
+	color: white;
+	background-color: black;
+	border-radius: 50%;
+
+}
+
+.nav-link li a:focus{
+    color:white;
+    background-color: black;
+    border-radius: 50%;
+}
+
+/* header section ends */
+
+
+
+
+
+/* content starts */
+
+
+
+.content {
+	display: grid;
+	position: inline-block;
+	grid-template-columns: 3fr 2fr;
+	grid-template-rows: 1fr;
+	grid-column-gap: 2%;
+	grid-row-gap: 0px;
+	min-height:95vh;
+	
+	
+	}
+  
+    h2{
+        margin: 0 auto;
+        padding: 3% 0;
+
+        
+    }
+
+    
+
+    .all{
+        
+        padding-left: 4%; 
+        font-size: 1.5rem;
+    }
+
+    p{
+        text-indent: 5%;
+        
+    }
+  
+	a{
+		font-size: 1.5rem;
+	}
+
+	
+
+	
+
+	.history p:last-child{
+		padding-bottom: 2%;
+		border-bottom: 2px solid black;
+	}
+
+
+
+
+
+    
+      .bigger{
+        font-size:2em;
+        color: #514e40;
+      }
+      
+      
+       
+        
+      
+      
+      hr{
+        width: 50%;
+        height:4px;
+        margin: 5% auto;
+        background: black;
+        
+        }
+
+		.all p:first-of-type{
+
+			font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+			font-size: 1.4rem;
+
+		}
+
+	
+
+
+
+
+/* footer begins */
+
+footer {
+	display:flex;
+	background-color: white;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 5vh;
+	width: 100%;
+	border-top: 2px solid lightgray;
+	justify-content:center;
+	align-items:center;
+	
+	 
+	
+	}
+	 
+	 .phone {
+	   
+	   font-size: .8rem;
+	margin:auto;
+	 }
+	 
+	 .address {
+	   
+	   font-size: .8rem;
+	 margin:auto;
+	 }
+
+     
+	 .copyright{
+		display: flex;
+		padding-right:2%;
+		font-size: .8rem;
+	 }
+
+     
+	 /* footer ends */
+
+	 @media only screen and (max-width: 768px) {
+		/* For mobile phones: */
+		.content {
+			display:block;
+		  	width: 100%;
+		}
+
+		.logo{
+			display: block;
+			margin:0 auto;
+		}
+		header{
+			display: block;
+			background-color: black;
+
+
+		}
+
+		ul.nav-link{
+			padding:0;
+			text-align: center;
+		}
+
+		footer{
+			height:5vmax;
+		}
+
+		.nav-link li a:hover{
+			color:black;
+			background-color: white;
+		}
+
+		li, a , button{
+			color:white;
+		}
+
+		
+	  }
+
+
+	  /* form */
+
+	  .rightside{
+		box-sizing: border-box;
+		margin:0 auto;
+		font-family: sans-serif;
+		background-color: lightgrey;
+		width: 100%;
+        
+		
+		
+	  }
+
+	  
+
+	  form{
+		width: 80%;
+		background-color: white;
+		padding: 2em;
+		margin: 5em auto;
+		border:  solid 1px;
+		font-size: 1.5rem;
+        display: block;
+		
+	  }
+
+	  #title{
+		margin-bottom: 1em;
+		
+	  }
+	  
+	  
+	  #msg {
+		display:block;
+		width: 75%;
+		height: 15vh;
+	  }
+	  
+	  #title{
+		text-align: center;
+	  }
+
+	  #submitForm{
+		color:black;
+
+	  }
+
+      .show{
+        color:white;
+        font-size:2rem;
+        text-align: center;
+        display:none;
+        margin-top: 80%;
+        
+      }
+
+      .date{
+        background-color: white;
+        
+        
+      }
+
+
+
+	  
+
+	
+	
