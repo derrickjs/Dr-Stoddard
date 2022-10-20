@@ -1,4 +1,4 @@
-unction removeForm(){
+function removeForm(){
     var form = document.querySelector("form");
 
     form.style.display = "none";
