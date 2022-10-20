@@ -16,21 +16,8 @@ document.querySelector("#submitForm").addEventListener("click", addText);
 
 
 
-function highlighter(){
-    var highLight = document.querySelector(".date");
 
-    highLight.style.backgroundColor = "yellow";
-}
 
-document.querySelector("form").addEventListener("mouseenter", highlighter);
-
-function highlighterOff(){
-    var highLight = document.querySelector(".date");
-
-    highLight.style.backgroundColor = "white";
-}
-
-document.querySelector("form").addEventListener("mouseleave", highlighterOff );
 
 
 
@@ -57,6 +44,26 @@ function offHoverButton(){
 
     
 }
+
+let d = document.querySelector("#todays-day");
+
+var highlight = () =>{
+    d.style.backgroundColor = "yellow";
+    document.querySelector(".date").style.backgroundColor = "yellow";
+
+}
+
+d.addEventListener("focus" , highlight);
+
+
+
+
+var nohighlight = () =>{
+    d.style.backgroundColor = "transparent";
+    document.querySelector(".date").style.backgroundColor = "transparent";
+}
+
+d.addEventListener("blur" , nohighlight);
 
 document.querySelector("#submitForm").addEventListener("mouseover", hoverButton);
 document.querySelector("#submitForm").addEventListener("mouseleave", offHoverButton);
